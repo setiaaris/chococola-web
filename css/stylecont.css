@@ -1,0 +1,619 @@
+@import 'http://fonts.googleapis.com/css?family=Open+Sans';
+@import url('https://fonts.googleapis.com/css?family=Merienda+One');
+
+@import url('https://fonts.googleapis.com/css?family=Patrick+Hand');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Tammudu&subset=latin-ext,telugu,vietnamese');
+
+@import url('https://fonts.googleapis.com/css?family=Sriracha');
+@import url('https://fonts.googleapis.com/css?family=Suez+One');
+
+
+
+@import url(https://raw.github.com/FortAwesome/Font-Awesome/master/docs/assets/css/font-awesome.min.css);
+
+
+
+* {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      text-decoration: none;
+      letter-spacing: 1px;
+      box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    background: #d52424;
+    margin: 0;
+    padding: 0;
+	display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    transition: all 450ms ease-in-out;
+    font-family: 'Open sans', sans-serif !important;
+    color: #fff !important;
+    
+}
+
+a:hover, a:active {
+    text-decoration: none;
+    font-family: 'Open sans', sans-serif !important;
+}
+
+p {
+    font-size: 15px;
+    line-height: 21px;
+}
+
+.btn {
+    transition: all 300ms ease-in-out;
+    font-weight: bold;
+    font-family: 'Open sans', sans-serif !important;
+}
+
+.btn:hover {
+    background-color: #fff; !important;
+    color: #d52424 !important;
+    border: 1px solid #fff !important;
+    font-weight: bold;
+    font-family: 'Open sans', sans-serif !important;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #990b0b;
+    border-color: #990b0b;
+    border-radius: 2px;
+}
+
+.navbar-brand img {
+    width: 69px;
+    height: auto;
+    margin-top: -25px;
+    margin-bottom: 0;
+    transition: all 0.5s ease;
+}
+
+.btn-lg {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+    font-family: 'Open sans', sans-serif !important;
+}
+
+.navbar-default .navbar-toggle {
+    border: none !important;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent !important;
+}
+
+
+
+
+
+/*GLOBAL*/
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #ffffff !important;
+}
+
+
+
+
+
+/*NAVIGATION*/
+
+.nav {
+    padding:0;
+    transition: all 0.3s ease;
+}
+
+.navbar {
+    background-color: #d52424;
+    font-family: 'Open sans' !important;
+    border: 0;
+    padding: 5px;
+    transition: all 0.5s ease;
+}
+
+.navbar a {
+    color: #FFFFFF !important;
+    opacity: 0.8;
+    font-weight: bolder;
+    font-family: 'Open sans', sans-serif !important;
+    
+}
+
+.navbar a:hover {
+    opacity: 1;
+    color: #efab90 !important;
+    font-weight: 700;
+    font-family: 'Open sans', sans-serif !important;
+}
+
+.navbar-form {
+    padding-top: 0;
+    transition: all 0.3s ease
+}
+
+
+/* WebKit, Blink, Edge */
+
+.form-control::-webkit-input-placeholder { 
+    font-family: 'Open sans', sans-serif !important;
+    font-weight: 600;
+    opacity: 0.6;
+}
+
+/* Mozilla Firefox 4 to 18 */
+
+.form-control:-moz-placeholder {            font-family: 'Open sans', sans-serif !important;
+     font-weight: 600;
+    opacity: 0.6;
+} 
+
+/* Mozilla Firefox 19+ */
+
+.form-control::-moz-placeholder {          font-family: 'Open sans', sans-serif !important;
+     font-weight: 600;
+    opacity: 0.6;
+}
+
+/* Internet Explorer 10-11 */
+
+.form-control:-ms-input-placeholder {      font-family: 'Open sans', sans-serif !important; 
+     font-weight: 600;
+    opacity: 0.6;
+}
+
+/* Microsoft Edge */
+
+.form-control::-ms-input-placeholder {      font-family: 'Open sans', sans-serif !important;
+     font-weight: 600;
+    opacity: 0.6;
+}
+
+
+
+header {
+	transition: all 0.3s ease;
+    padding: 0;
+    margin: 0;
+}
+
+header.sticky {
+    background-color: #fff;
+    margin: -5px -5px -5px -5px;
+    padding: 5px;
+    
+}
+
+header.sticky .navbar-brand img {
+    width: 60px;
+    height: auto;
+    padding: 4px 0 4px 0;
+}
+
+header.sticky a {
+    color: #212121 !important;
+    transition: all 0.3s ease;
+}
+
+header.sticky .navbar-toggle .icon-bar {
+    background-color: #2f2c2c !important;
+    transition: all 0.3s ease-in;
+}
+
+header.sticky .nav {
+    padding: 0 !important;
+    transition: all 0.3s ease-in;
+}
+
+header.sticky .navbar-form {
+    padding-top: 0;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+/*HEADER*/
+.header {
+    width: 100%;
+    padding: 0;
+    margin-top: 60px;
+    margin-bottom: 0;
+    background: url(../images/bg1.jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+
+
+
+
+
+/*FORM CONTACT*/
+
+.loginBox {
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%,-0%);
+    width: 50%;
+    height: 500px;
+    margin: 80px 0 80px 0px;
+    padding: 60px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.7);
+}
+
+.user {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+
+h2 {
+	margin: 0;
+	padding: 0 0 20px;
+	color: #efed20;
+	text-align:center;
+}
+
+.loginBox p {
+	margin:0;
+	padding: 0;
+	font-weight:bold;
+	color: #fff;
+    font-family: 'Open sans', sans-serif;
+}
+
+.loginBox input {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginBox input[type="text"], .loginBox input[type="email"] {
+	border: none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+    font-family: 'Open sans', sans-serif;
+}
+
+.loginBox input[type="text1"] {
+	border: none;
+	border-bottom:1px solid #fff;
+	background:transparent;
+	outline:none;
+	height:100px;
+	color:#fff;
+    font-family: 'Open sans', sans-serif;
+	font-size:16px;
+}
+
+::placeholder {
+	color: rgba (255,255,255,.5);
+    font-family: 'Open sans', sans-serif;
+}
+
+.loginBox input[type="submit"] {
+	border: none;
+	outline: none;
+	height:40px;
+	color:#fff;
+	font-size:16px;
+	background: #d62424;
+    width: 110px;
+	cursor:pointer;
+	border-radius: 4px;
+	transition:all 0.2s ease-in;
+    font-weight: bold;
+    font-family: 'Open sans', sans-serif;
+}
+
+.loginBox input[type="submit"]:hover {
+	background: #fff;
+	color:#d62424;
+    font-family: 'Open sans', sans-serif;
+}
+
+
+
+
+
+
+/*FOOTER*/
+
+.socmed {
+    padding: 27px 3px 0 3px !important;
+}
+
+.copyr {
+    float: left;
+}
+
+footer .picture {
+    position: relative;
+    display: block;
+    padding: 5px 3px 5px 3px !important;
+    overflow: hidden !important;
+    width: 42px;
+    height: 42px;
+    margin-top: -13px;
+    display: inline-block;
+}
+
+footer .picture img {
+    transition: transform .2s ease-in-out;
+    
+}
+
+footer .picture img:hover {
+    transform: translate3d(0px, -37px, 0px);
+}
+
+
+footer {
+    clear: both;
+	background: #d52424;
+	height: 70px;
+	padding-bottom:0;
+	position: relative;
+	width: 100%;
+    color: #ffffff;
+    text-align: right;
+}
+
+footer p {
+	margin-top: 29px;
+    padding: 0;
+    font-size: 12px;
+    font-family: sans-serif;
+    opacity: 0.8;
+}
+
+
+
+
+
+/**===Scroll to Top====**/
+
+#scrollToTop {
+	font-size: 3em;
+	color:#990b0b;
+	position:fixed;
+	right:20px;
+	bottom: 0;
+	transition:all 0.5s ease;
+}
+
+#scrollToTop:hover {
+	transform: scale(1.1,1.1);
+	transition:all 0.5s ease;
+}
+
+.hide {
+	transform: scale(0,0);
+}
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+
+@media(max-width: 1920px) {
+    
+    .header {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+        background: url(../images/bg1920.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+
+
+
+@media(max-width: 1366px) {
+    
+    .header {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+        background: url(../images/bg1.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+
+
+@media(max-width: 1020px) {
+    
+    .header {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+        background: url(../images/bg1020.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+
+
+
+@media(max-width: 885px) {
+    
+      .nav {
+        padding:0;
+    }
+    
+    .navbar-brand img {
+        width: 60px;
+        height: auto;
+        margin-top: -22px;
+        transition: all 0.3s ease;
+    }
+    
+    header.sticky .navbar-brand img {
+        width: 58px;
+        height: auto;
+        margin-top: -25px;
+        margin-bottom: 0;
+    }
+    
+    .navbar-form {
+        padding-top: 10px;
+        transition: all 0.3s ease
+    }
+    
+    header.sticky .navbar-form {
+        padding-top: 10px !important;
+    }
+    
+}
+
+@media(max-width: 795px) {
+    
+    .header {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+        background: url(../images/bg795.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+
+
+@media(max-width: 720px) {
+    
+        .loginBox {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 672px) {
+    
+    .header {
+        width: 100%;
+        padding: 0;
+        margin-top: 60px;
+        margin-bottom: 0;
+        background: url(../images/bg672.jpg);
+        background-size: cover;
+        background-position: top;
+    }
+}
+
+
+
+@media (max-width: 520px) {
+    
+    
+    .nav {
+        padding:0;
+        transition: all 0.3s ease;
+    }
+    
+    .navbar-brand img {
+        width: 60px;
+        height: auto;
+        margin-top: -22px;
+        margin-bottom: 0;
+        transition: all 0.3s ease;
+    }
+    
+    .copyr {
+        float: none;
+        text-align: center;
+    }
+
+    .socmed {
+        float: none;
+        text-align: center;
+    }
+    
+}
+
+
+    
+
+
+@media(max-width: 430px) {
+    
+    
+     .navbar-brand img {
+        width: 60px;
+        height: auto;
+        margin-top: -22px;
+        margin-bottom: 0;
+        transition: all 0.3s ease;
+    }
+    
+     header.sticky .navbar-brand img {
+        width: 58px;
+        height: auto;
+        margin-top: -25px;
+        margin-bottom: 0;
+    }
+    
+}
+
